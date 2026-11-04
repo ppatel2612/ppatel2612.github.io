@@ -2,8 +2,8 @@
   'use strict';
   const config = window.PORTFOLIO_CONFIG;
   const $ = selector => document.querySelector(selector);
-  const colors = { JavaScript: '#b39728', TypeScript: '#3178c6', Python: '#527c9c', HTML: '#d16b49', Java: '#b46d49', C: '#777c93', MATLAB: '#c07b43' };
-  const state = { repos: [], query: '', language: 'All', sort: 'recent', forks: false };
+  const colors = { JavaScript: '#b39728', TypeScript: '#3178c6', Python: '#527c9c', HTML: '#d16b49', Java: '#b46d49', C: '#777c93', MATLAB: '#c07b43', VHDL: '#54794e', Verilog: '#a26b47' };
+  const state = { repos: [], query: '', language: 'All', sort: 'recent', forks: true };
   const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
   const safeUrl = value => {
     try { const url = new URL(value); return ['https:', 'http:'].includes(url.protocol) ? escape(url.href) : ''; }
@@ -48,7 +48,10 @@
 
   function useRepos(repos, label) {
     if (!Array.isArray(repos) || !repos.every(repo => repo && typeof repo.name === 'string')) throw new Error('Invalid repository response');
-    state.repos = repos;
+    state.repos = repos.map(repo => ({
+      ...repo,
+      language: config.languageOverrides?.[repo.name] || repo.language
+    }));
     $('#load-error').hidden = true;
     $('#data-status').textContent = label;
     renderFeatured();
@@ -100,8 +103,8 @@
     if (button) { state.language = button.dataset.language; renderRepos(); }
   });
   $('#reset-filters').addEventListener('click', () => {
-    state.query = ''; state.language = 'All'; state.sort = 'recent'; state.forks = false;
-    $('#search').value = ''; $('#sort').value = 'recent'; $('#show-forks').checked = false;
+    state.query = ''; state.language = 'All'; state.sort = 'recent'; state.forks = true;
+    $('#search').value = ''; $('#sort').value = 'recent'; $('#show-forks').checked = true;
     renderRepos(); $('#search').focus();
   });
   $('#retry').addEventListener('click', load);
