@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-11-04",
+  "name": "Pratham Patel",
+  "experience": [
+    {
+      "id": "galaxy-fine-homes-business-operations-coordinator",
+      "company": "Galaxy Fine Homes",
+      "title": "Business Operations Coordinator",
+      "location": "Guelph, Ontario, Canada",
+      "employmentType": null,
+      "startDate": "2026-05",
+      "endDate": "2026-08",
+      "dateLabel": "May 2026 – Aug 2026",
+      "summary": "Coordinated purchasing, vendor communication, and domestic and international shipping to support day-to-day business operations.",
+      "focusAreas": ["Business operations", "Purchasing", "Vendor coordination", "Logistics"],
+      "contributions": [
+        {
+          "title": "Purchase order coordination",
+          "description": "Managed purchase orders from creation through fulfillment, maintained accurate records, and verified orders and documentation against project requirements."
+        },
+        {
+          "title": "Vendor communication",
+          "description": "Confirmed pricing, availability, order details, and delivery timelines with vendors."
+        },
+        {
+          "title": "Purchasing documentation",
+          "description": "Organized and maintained purchasing records for internal reference and financial tracking."
+        },
+        {
+          "title": "Shipping coordination",
+          "description": "Coordinated domestic and international shipments, scheduled pickups and deliveries, and prepared shipping documentation."
+        }
+      ],
+      "highlights": [],
+      "tools": [],
+      "sources": ["cv.md#experience"]
+    },
+    {
+      "id": "pepsico-supply-chain-intern",
+      "company": "PepsiCo",
+      "title": "Supply Chain Intern for Frito-Lay",
+      "location": "Mississauga, Ontario, Canada",
+      "employmentType": "Internship",
+      "startDate": "2025-09",
+      "endDate": "2025-12",
+      "dateLabel": "Sept 2025 – Dec 2025",
+      "summary": "Worked on the Regional Quality Team with plants across Canada, combining complaint analytics, Python automation, and cross-plant coordination to support manufacturing quality and action follow-up.",
+      "focusAreas": ["Manufacturing quality", "Data analytics", "Automation", "Stakeholder coordination"],
+      "contributions": [
+        {
+          "title": "Complaint analytics and root-cause investigation",
+          "description": "Built SQL queries and Power BI dashboards to trace complaints to specific machines, identify recurring manufacturing issues, and track improvement progress."
+        },
+        {
+          "title": "Corrective and preventive action tracking",
+          "description": "Tracked all PepsiCo/Frito-Lay Ontario corrective and preventive actions (CAPAs), cleaned up old and addressed records, and followed up to ensure new CAPAs were addressed."
+        },
+        {
+          "title": "Scheduling and reminder automation",
+          "description": "Developed Python scripts to extract scheduling and area-assignment data and generate due-date reminders, improving task follow-up reliability across plant operations."
+        },
+        {
+          "title": "Cross-plant project coordination",
+          "description": "Led stakeholder coordination and status meetings across multiple plants, translated feedback into actionable tasks, and presented project updates and solutions."
+        },
+        {
+          "title": "Capital project exposure",
+          "description": "Gained experience with capital projects during the internship."
+        }
+      ],
+      "highlights": [
+        {
+          "value": "60%",
+          "label": "Outstanding complaint and RCA action items resolved",
+          "description": "Helped resolve 60% of outstanding complaint and root-cause analysis action items by the end of the term.",
+          "source": "cv.md#experience"
+        }
+      ],
+      "tools": ["Python", "SQL", "Power BI"],
+      "sources": ["cv.md#experience"]
+    },
+    {
+      "id": "ontario-project-analyst-intern",
+      "company": "Government of Ontario",
+      "title": "Project Analyst Intern for Ministry of Agriculture, Food and Agribusiness",
+      "location": "Toronto, Ontario, Canada",
+      "employmentType": "Internship",
+      "startDate": "2024-01",
+      "endDate": "2024-09",
+      "dateLabel": "Jan 2024 – Sept 2024",
+      "summary": "Supported internal CRM testing, helped develop internal web platforms, led the launch of two ministry sites, and contributed to IT support.",
+      "focusAreas": ["Test automation", "Web development", "Project delivery", "IT support"],
+      "contributions": [
+        {
+          "title": "CRM test creation and execution",
+          "description": "Worked on the testing team for a new internal CRM, contributing to tests created and executed by the team. Developed six automated testing scripts using Python, JavaScript, Selenium, SQL, and Git."
+        },
+        {
+          "title": "Internal web platforms",
+          "description": "Planned and supported development of two internal web platforms using JavaScript, React, HTML/CSS, FastAPI, and AWS to improve stakeholder communication and centralize team resources."
+        },
+        {
+          "title": "Site launches and project communication",
+          "description": "Led the launch of two internal ministry sites, tested websites during deployment work, and led meetings to present project updates and solutions."
+        },
+        {
+          "title": "IT support",
+          "description": "Supported IT requests through ticketing and the ministry's support email."
+        },
+        {
+          "title": "SAP DM workflows",
+          "description": "Used SAP DM primarily through existing workflows, with small custom implementations."
+        }
+      ],
+      "highlights": [
+        {
+          "value": "6",
+          "label": "Automated testing scripts developed",
+          "description": "Developed six automation scripts to support internal CRM validation.",
+          "source": "cv.md#experience"
+        },
+        {
+          "value": "50+",
+          "label": "Test cases executed by a three-person QA team in one week",
+          "description": "The automation helped a three-person QA team execute more than 50 test cases in one week.",
+          "source": "cv.md#experience"
+        },
+        {
+          "value": "Up to 20%",
+          "label": "Faster deployment timelines",
+          "description": "CRM testing automation helped accelerate deployment timelines by up to 20%.",
+          "source": "cv.md#experience"
+        },
+        {
+          "value": "2",
+          "label": "Internal sites launched",
+          "description": "Led the launch of two internal sites for the ministry.",
+          "source": "cv.md#experience"
+        }
+      ],
+      "tools": ["Python", "JavaScript", "Selenium", "SQL", "Git", "React", "HTML", "CSS", "FastAPI", "AWS", "SAP DM"],
+      "sources": ["cv.md#experience"]
+    },
+    {
+      "id": "stelco-cyber-security-intern",
+      "company": "Stelco Canada",
+      "title": "Cyber Security Intern for Stelco Hamilton Works",
+      "location": "Hamilton, Ontario, Canada",
+      "employmentType": "Internship",
+      "startDate": "2022-05",
+      "endDate": "2022-09",
+      "dateLabel": "May 2022 – Sept 2022",
+      "summary": "Contributed to employee access security, network infrastructure, cybersecurity documentation, and IT support at Stelco Hamilton Works.",
+      "focusAreas": ["Cybersecurity", "Network infrastructure", "Systems administration", "IT support"],
+      "contributions": [
+        {
+          "title": "Multi-factor authentication rollout",
+          "description": "Implemented multi-factor authentication for more than 500 employees to strengthen company IT security."
+        },
+        {
+          "title": "Cybersecurity documentation",
+          "description": "Created Visio diagrams documenting cybersecurity protocols and recorded security changes and procedures."
+        },
+        {
+          "title": "Network infrastructure and security",
+          "description": "Helped set up Fortinet infrastructure and gained hands-on experience configuring switches, routers, and firewalls through the command line, working with VPN/ZTNA, identifying vulnerabilities, and hardening access controls."
+        },
+        {
+          "title": "Identity and systems administration",
+          "description": "Gained hands-on experience with Windows Server, Active Directory users, group policies and organizational units, DNS/DHCP, and Microsoft 365/Entra account, license, and security-policy administration."
+        },
+        {
+          "title": "Infrastructure maintenance and support",
+          "description": "Contributed to server-room setup and maintenance, handled IT-support email, and gained hands-on experience with support ticketing, Linux administration and troubleshooting, server and virtual-machine provisioning, patch management, and disaster-recovery testing."
+        },
+        {
+          "title": "Packet tracking",
+          "description": "Gained packet-tracking experience during the internship."
+        }
+      ],
+      "highlights": [
+        {
+          "value": "500+",
+          "label": "Employees supported by MFA implementation",
+          "description": "Implemented multi-factor authentication for more than 500 employees.",
+          "source": "cv.md#experience"
+        }
+      ],
+      "tools": ["Visio", "Fortinet", "Windows Server", "Active Directory", "Microsoft 365", "Microsoft Entra", "Linux", "NinjaOne", "CyberArk", "Azure", "Nutanix AHV", "Puppet", "Ansible"],
+      "sources": ["cv.md#experience"]
+    }
+  ]
+}
